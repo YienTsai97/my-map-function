@@ -14,7 +14,7 @@ npm i my-map-function
 
 ```js
 const myMap = require("yi-en/my-map-function");
-const arrey = [1, 2, 3, 4];
+const array = [1, 2, 3, 4];
 const callbackFn = (element, index) => elenment * 2;
 const res = myMap(callbackFn)(array);
 
